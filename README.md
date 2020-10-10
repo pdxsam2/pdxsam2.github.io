@@ -1,3 +1,5 @@
+## A huge thank you for this tutorial on creating this page in react: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
