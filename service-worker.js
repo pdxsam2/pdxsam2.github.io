@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pdxsam2.github.io/precache-manifest.8c694898f09ea1fb8c648c4f0a2a9e07.js"
+  "/pdxsam2.github.io/precache-manifest.9a6f6b122f0c87399595b7f2a732c203.js"
 );
 
 self.addEventListener('message', (event) => {
