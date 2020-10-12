@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './Sidebar.css';
+import Page from './Page';
+import Sidebar from './Sidebar';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Sidebar height= '100vh' />
+    <Page />
   </React.StrictMode>,
   document.getElementById('root')
 );

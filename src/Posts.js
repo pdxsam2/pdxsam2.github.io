@@ -10,9 +10,9 @@ export default class Posts extends React.Component {
         const postList= []
         posts.map(post => {
             const postView= <div className= "post" key= {post.title}>
-                <header className= "title">
+                <h1 className= "title">
                     {post.title}
-                </header>
+                </h1>
                 <p className= "description">
                     {post.description}
                 </p>
@@ -25,12 +25,12 @@ export default class Posts extends React.Component {
     render(){
         if(this.state.isLoaded)
             return (
-                <div>
+                <div className= "recent-posts">
                     {this.state.posts}
                 </div>
                 
             );
         else
-            return (<div> I am currently loading... </div>);
+            return (<div> Loading... </div>);
     }
 }

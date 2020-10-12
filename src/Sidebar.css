@@ -1,0 +1,13 @@
+.side-bar{
+    border-right: medium solid black;
+    float: left;
+    width: 13%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(218, 220, 224);
+    z-index: 10;
+}
+
+.side-bar h1{
+    height: 4%;
+}

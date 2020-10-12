@@ -1,0 +1,16 @@
+.page{
+  position: relative;
+  height: 100vh;
+  text-align: center;
+}
+
+.page-title{
+  margin: 0% 2% 3% 16%;
+}
+
+.recent-posts{
+}
+.post{
+  margin: 2% 2% 3% 16%;
+  border: medium outset;
+}
